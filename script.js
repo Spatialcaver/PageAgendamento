@@ -11,7 +11,7 @@ Swal.fire({
 
 }
 
-
+/*
 function verificarData(){
     const data = new Date()
     const hoje = data.getDate()
@@ -32,7 +32,7 @@ function verificarData(){
                 }
        );
     }
-}
+}*/
 
   
   
