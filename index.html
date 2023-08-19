@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+
+
+</head>
+<body>
+    <Header>
+       
+            <div id="logo">
+                <img src="assets/logo.png" alt="">
+            </div>
+
+            <div id="marca">
+                <h3>Caver salão de beleza</h3>
+            </div>
+        
+    </Header>
+
+    <section id="agendamento">
+        <h4> Faça Agora seu Agendamento:</h4>
+        
+            <section id="formsAgend">
+
+                <form id="cads" method="get" class="form-container">
+                    <div>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    </div>
+
+                    <div>
+                    <label for="phone">Telefone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    
+                    <div>
+                    <label for="date">Data:</label>
+                    <input type="date" id="date" name="date" required>
+                    </div>
+                    
+                    <div>
+                    <label for="time">Horário:</label>
+                    <input type="time" id="time" name="time" required>
+                    </div>
+                    
+                    <div>
+                    <label for="service">Serviço:</label>
+                    <select id="service" name="service">
+                    <option value="service1"> Cabelo </option>
+                    <option value="service2"> Unha </option>
+                    <option value="service3"> Limpeza de pele </option>
+                    </div>
+                    </select>
+                    
+                <div>
+                <button id="btn" type="submit" onclick="verificarData()">Agendar</button>
+                </div>
+            </form>
+        </section>
+
+
+    </section>
+
+
+<footer>
+    <div>
+        <h6>teste</h6>
+    </div>
+</footer>
+
+
+</body>
+</html>

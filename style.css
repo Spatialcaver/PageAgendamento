@@ -1,0 +1,147 @@
+header{
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    top: 0;
+    z-index: 1000;
+    align-items: center;
+    display: flex;
+    background-color: #E8D1DC;
+    padding: 10px;
+}
+
+#agendamento{
+    background-color: #e8d4d1a7;
+    margin: 10% auto;
+    padding: 10px;
+    align-items: center !important;
+    text-align: center !important;
+    height: auto;
+    width: 40%;
+
+}
+
+#cads{
+    align-items: center;
+}
+
+input, select {
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    width: 100%;
+    background-color: #ef89c8;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 10px
+   
+
+  }
+
+  button:hover {
+    background-color:#f55fbc;
+  }
+  
+  button:active {
+    background-color: #222;
+  }
+
+#formsAgend{
+    background-color: #ffdeff;
+    align-items: center;
+    width:50%;
+    padding-top: 10px;
+    text-align: left;
+    height: 70vh;
+    justify-content: center;
+}
+
+section{ 
+    margin: 10% auto;
+}
+
+
+body{
+    background-color: #FFEDE6;
+    margin: 0;
+
+}
+
+#logo{
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+#marca{
+    justify-content: center !important;
+    margin-left: 20%;
+}
+
+
+footer{
+    background-color: #E8D1DC;
+    position: absolute;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin-top: -50px
+
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+  }
+
+
+  /* Estilos para telas menores, como dispositivos móveis */
+@media screen and (max-width: 768px) {
+    header {
+      padding: 5px; /* Reduz o espaçamento no cabeçalho */
+    }
+  
+    #agendamento {
+      width: 80%; /* Aumenta a largura do formulário */
+      margin: 50% auto; /* Ajusta a margem superior para centralizar */
+      height: fit-content;
+      padding: 10px;
+    }
+  
+    #formsAgend {
+      width: 80%; /* Aumenta a largura do formulário interno */
+      height: fit-content;
+      padding: 10px;
+    }
+  
+    input, select {
+      width: 80%; /* Expande a largura dos campos de entrada */
+    }
+
+    
+  #marca{
+    margin-left: 7%;
+  }
+
+  body{
+    height: fit-content;
+  }
+  footer{
+    position: absolute;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin-top: -30%
+  }
+  }
+
+  
